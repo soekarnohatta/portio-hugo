@@ -24,7 +24,7 @@
 			<div class="col-lg-4">
 				<div class="blog-preview__item">
 					<div class="blog-preview__item-thumb">
-						<img class="lazyload" src="{{ .Params.featureImage | absURL }}" alt="post-image">
+						<img class="lazyload" src="{{ .Params.featureImage | absURL }}" alt="post-image" loading="lazy"/>
 					</div>
 					<div class="blog-preview__item-content bg-white">
 						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>
