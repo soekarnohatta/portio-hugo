@@ -1,7 +1,7 @@
 <div class="blog-section">
     <h3>{{ .Get "title" }}</h3>
-    <img src="{{ .Get "image" | absURL}}"  alt="blog-img">
+    <img src="{{ .Get "image" | absURL}}"  alt="blog-img" width="{{ .Get "width" }}" height="{{ .Get "height" }}" >
     <p>
         {{ .Inner }}
-    </p>
+	</p>
 </div>
