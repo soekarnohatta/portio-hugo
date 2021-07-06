@@ -14,7 +14,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
   var player = new Clappr.Player({
-    source: {{ .Get 0 }},
+    source: "{{ .Get 0 }}",
     mute: false,
     parentId: ".player-wrapper",
     height: "100%",
